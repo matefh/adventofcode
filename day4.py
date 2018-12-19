@@ -35,5 +35,4 @@ for k, mins in log.items():
     most_frequency = mins[minute]
     most_freq_sleep_minute = minute
     g = k
-print log
 print "Part 2:", g * most_freq_sleep_minute
